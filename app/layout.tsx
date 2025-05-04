@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,7 +21,8 @@ const oneday = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SoundBee",
+  title: "Sound Bee - Professional Sound Bar Repair Workshop",
+  description: "Expert repair services for premium sound bars including JBL, Bose, Yamaha, and more.",
 };
 
 export default function RootLayout({
@@ -29,7 +32,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${oneday.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${oneday.variable} antialiased`}>
+        <Navbar />
+        <main className="pt-20">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
