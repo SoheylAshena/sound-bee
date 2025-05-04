@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-background/95 fixed top-0 z-50 w-full backdrop-blur">
+    <nav className="bg-background fixed top-0 z-50 w-full">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         <Link href="/" className="flex items-center space-x-2">
           <span className="font-oneday text-primary text-2xl">Sound Bee</span>
