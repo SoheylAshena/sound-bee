@@ -2,11 +2,10 @@
 
 import { useEffect } from "react";
 import NProgress from "nprogress";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function ProgressLoader() {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     NProgress.configure({ showSpinner: false });
@@ -15,7 +14,7 @@ export default function ProgressLoader() {
   useEffect(() => {
     NProgress.start();
     NProgress.done();
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   return null;
 }

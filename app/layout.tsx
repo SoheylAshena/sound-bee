@@ -21,6 +21,11 @@ const oneday = localFont({
   variable: "--font-oneday",
 });
 
+const iransns = localFont({
+  src: "../public/fonts/IRS.ttf",
+  variable: "--font-iransns",
+});
+
 export const metadata: Metadata = {
   title: "Sound Bee - Professional Sound Bar Repair Workshop",
   description: "Expert repair services for premium sound bars including JBL, Bose, Yamaha, and more.",
@@ -32,11 +37,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${oneday.variable} antialiased`}>
+    <html lang="en" dir="rtl">
+      <body
+        className={`bg-background ${geistSans.variable} ${iransns.variable} ${geistMono.variable} ${oneday.variable} antialiased`}
+      >
         <ProgressLoader />
         <Navbar />
-        <main className="pt-10">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

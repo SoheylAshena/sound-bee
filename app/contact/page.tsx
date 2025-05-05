@@ -1,14 +1,15 @@
+import { getTranslations } from "../../utils/translations";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
+  const { contact } = getTranslations();
+
   return (
     <div className="bg-background">
-      <section className="bg-secondary relative py-16">
+      <section className="bg-secondary relative py-32">
         <div className="mx-auto max-w-7xl px-4">
-          <h1 className="font-oneday text-primary mb-6 text-center text-4xl md:text-5xl">Contact Us</h1>
-          <p className="text-text/90 mx-auto max-w-3xl text-center text-lg">
-            Get in touch with our expert team for all your sound bar repair needs
-          </p>
+          <h1 className="font-oneday text-primary mb-6 text-center text-4xl md:text-5xl">{contact.title}</h1>
+          <p className="text-text/90 mx-auto max-w-3xl text-center text-lg">{contact.description}</p>
         </div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.15),transparent_70%)]" />
       </section>
@@ -17,11 +18,11 @@ export default function Contact() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
             <div>
-              <h2 className="font-oneday text-primary mb-8 text-2xl">Get In Touch</h2>
+              <h2 className="font-oneday text-primary mb-8 text-2xl">{contact.getInTouch.title}</h2>
               <form className="space-y-6">
                 <div>
                   <label htmlFor="name" className="text-text mb-2 block">
-                    Name
+                    {contact.getInTouch.nameLabel}
                   </label>
                   <input
                     type="text"
@@ -32,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label htmlFor="email" className="text-text mb-2 block">
-                    Email
+                    {contact.getInTouch.emailLabel}
                   </label>
                   <input
                     type="email"
@@ -43,7 +44,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <label htmlFor="message" className="text-text mb-2 block">
-                    Message
+                    {contact.getInTouch.messageLabel}
                   </label>
                   <textarea
                     id="message"
@@ -56,38 +57,38 @@ export default function Contact() {
                   type="submit"
                   className="bg-primary hover:bg-primary-dark text-secondary rounded-lg px-8 py-3 font-semibold transition-colors"
                 >
-                  Send Message
+                  {contact.getInTouch.submitButton}
                 </button>
               </form>
             </div>
 
             <div>
-              <h2 className="font-oneday text-primary mb-8 text-2xl">Contact Information</h2>
+              <h2 className="font-oneday text-primary mb-8 text-2xl">{contact.contactInfo.title}</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <FaPhone className="text-primary mt-1 h-6 w-6" />
                   <div>
-                    <h3 className="text-text text-lg font-semibold">Phone</h3>
-                    <p className="text-text/80">(555) 123-4567</p>
-                    <p className="text-text/60">Monday - Friday, 9:00 AM - 6:00 PM</p>
+                    <h3 className="text-text text-lg font-semibold">{contact.contactInfo.phone.title}</h3>
+                    <p className="text-text/80">{contact.contactInfo.phone.number}</p>
+                    <p className="text-text/60">{contact.contactInfo.phone.hours}</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <FaEnvelope className="text-primary mt-1 h-6 w-6" />
                   <div>
-                    <h3 className="text-text text-lg font-semibold">Email</h3>
-                    <p className="text-text/80">contact@soundbee.com</p>
-                    <p className="text-text/60">We'll respond within 24 hours</p>
+                    <h3 className="text-text text-lg font-semibold">{contact.contactInfo.email.title}</h3>
+                    <p className="text-text/80">{contact.contactInfo.email.address}</p>
+                    <p className="text-text/60">{contact.contactInfo.email.responseTime}</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <FaMapMarkerAlt className="text-primary mt-1 h-6 w-6" />
                   <div>
-                    <h3 className="text-text text-lg font-semibold">Address</h3>
-                    <p className="text-text/80">123 Audio Street</p>
-                    <p className="text-text/80">Soundville, SV 12345</p>
+                    <h3 className="text-text text-lg font-semibold">{contact.contactInfo.address.title}</h3>
+                    <p className="text-text/80">{contact.contactInfo.address.line1}</p>
+                    <p className="text-text/80">{contact.contactInfo.address.line2}</p>
                   </div>
                 </div>
               </div>

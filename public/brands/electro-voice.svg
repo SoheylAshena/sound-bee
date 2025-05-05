@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg13775" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:svg="http://www.w3.org/2000/svg" viewBox="0 0 213 211">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gold;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path id="path6435" class="cls-1" d="M6,6v198.9h198.9V6H6ZM19.1,19.1h172.7v172.7H19.1V19.1ZM25.3,25.4v160.3h160.3V25.4H25.3ZM44.5,44.9h49.8v18.8h-31v15.2h31v18.8h-31v15.1h31v18.8h-49.8V44.9ZM153,62h20.4l-41.8,98.1h-18.8v-62.6h-7.6v-18.8h26.3v33.4s21.4-50.2,21.4-50.2Z"/>
+</svg>

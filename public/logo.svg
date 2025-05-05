@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #000;
+      }
+
+      .cls-2 {
+        fill: #fed700;
+      }
+
+      .cls-3 {
+        font-family: ONEDAY, 'ONE DAY';
+        font-size: 89.85px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-2" width="512" height="512"/>
+    <text class="cls-3" transform="translate(39.38 484.49)"><tspan x="0" y="0">SOUND BEE</tspan></text>
+    <g id="_8" data-name="8">
+      <rect class="cls-1" x="145.34" y="361.87" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="145.34" y="313.92" width="39.24" height="39.23"/>
+      <rect class="cls-1" x="145.34" y="265.94" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="145.34" y="217.97" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="145.34" y="170" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="145.34" y="122.04" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="145.34" y="74.07" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="145.34" y="26.11" width="39.24" height="39.24"/>
+    </g>
+    <g id="_5" data-name="5">
+      <rect class="cls-1" x="199.56" y="361.87" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="199.56" y="313.92" width="39.24" height="39.23"/>
+      <rect class="cls-1" x="199.56" y="265.94" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="199.56" y="217.97" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="199.56" y="170" width="39.24" height="39.24"/>
+    </g>
+    <g id="_6" data-name="6">
+      <rect class="cls-1" x="91.12" y="361.87" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="91.12" y="313.92" width="39.24" height="39.23"/>
+      <rect class="cls-1" x="91.12" y="265.94" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="91.12" y="217.97" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="91.12" y="170" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="91.12" y="122.04" width="39.24" height="39.24"/>
+    </g>
+    <g id="_2" data-name="2">
+      <rect class="cls-1" x="378.72" y="361.88" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="378.72" y="313.92" width="39.24" height="39.23"/>
+    </g>
+    <g id="_2-2" data-name="2">
+      <rect class="cls-1" x="427.61" y="361.88" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="427.61" y="313.92" width="39.24" height="39.23"/>
+    </g>
+    <g id="_7" data-name="7">
+      <rect class="cls-1" x="39.29" y="361.87" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="39.29" y="313.92" width="39.24" height="39.23"/>
+      <rect class="cls-1" x="39.29" y="265.94" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="39.29" y="217.97" width="39.24" height="39.25"/>
+      <rect class="cls-1" x="39.29" y="170" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="39.29" y="122.04" width="39.24" height="39.24"/>
+      <rect class="cls-1" x="39.29" y="74.07" width="39.24" height="39.24"/>
+    </g>
+    <g id="_1" data-name="1">
+      <rect class="cls-1" x="328.42" y="361.88" width="39.24" height="39.25"/>
+    </g>
+    <g id="_3" data-name="3">
+      <rect class="cls-1" x="253.78" y="361.88" width="39.25" height="39.25"/>
+      <rect class="cls-1" x="253.78" y="313.92" width="39.25" height="39.23"/>
+      <rect class="cls-1" x="253.78" y="265.94" width="39.25" height="39.24"/>
+    </g>
+  </g>
+</svg>

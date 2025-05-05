@@ -1,0 +1,75 @@
+{
+  "general": {
+    "brandName": "Sound Bee",
+    "copyright": "© {year} Sound Bee. All rights reserved.",
+    "tagline": "Your trusted workshop for premium sound bar repairs"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Sound Bee",
+      "subtitle": "Professional Sound Bar Repair Workshop",
+      "cta": "Get Expert Help"
+    },
+    "features": {
+      "title": "Why Choose Sound Bee",
+      "subtitle": "Experience the difference with our professional service",
+      "expert": {
+        "title": "Expert Repairs",
+        "description": "Specialized technicians with years of experience in sound bar repair"
+      },
+      "trusted": {
+        "title": "Trusted Service",
+        "description": "Authorized repair center for major sound bar brands"
+      },
+      "quality": {
+        "title": "Quality Guaranteed",
+        "description": "We use original parts and provide warranty on all repairs"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Always here to help with quick response times and reliable service"
+      }
+    },
+    "brands": {
+      "title": "Brands We Work With",
+      "subtitle": "Authorized repair center for leading audio brands worldwide"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact Info",
+      "email": "contact@soundbee.com",
+      "phone": "(555) 123-4567",
+      "address": "123 Audio Street, Soundville"
+    },
+    "brands": {
+      "title": "Brands We Service",
+      "list": [
+        "JBL",
+        "CROWN",
+        "HARMAN",
+        "YAMAHA",
+        "AKG",
+        "DB TECHNOLOGY",
+        "DYNACORD",
+        "MACKIE",
+        "FOCAL",
+        "BOSE",
+        "FBT",
+        "RCF",
+        "Bang & Olufsen",
+        "ICE power",
+        "Electro Voice",
+        "Montarbo",
+        "Behringer",
+        "Pascal",
+        "DBX"
+      ]
+    }
+  }
+}
