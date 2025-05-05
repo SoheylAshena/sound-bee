@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="bg-background">
       <section className="bg-secondary relative py-32">
         <div className="mx-auto max-w-7xl px-4">
-          <h1 className="font-oneday text-primary mb-6 text-center text-4xl md:text-5xl">{contact.title}</h1>
+          <h1 className="font-iransns text-primary mb-6 text-center text-4xl md:text-5xl">{contact.title}</h1>
           <p className="text-text/90 mx-auto max-w-3xl text-center text-lg">{contact.description}</p>
         </div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.15),transparent_70%)]" />
@@ -17,8 +17,8 @@ export default function Contact() {
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-            <div>
-              <h2 className="font-oneday text-primary mb-8 text-2xl">{contact.getInTouch.title}</h2>
+            {/* <div>
+              <h2 className="font-iransns text-primary mb-8 text-2xl">{contact.getInTouch.title}</h2>
               <form className="space-y-6">
                 <div>
                   <label htmlFor="name" className="text-text mb-2 block">
@@ -60,10 +60,10 @@ export default function Contact() {
                   {contact.getInTouch.submitButton}
                 </button>
               </form>
-            </div>
+            </div> */}
 
             <div>
-              <h2 className="font-oneday text-primary mb-8 text-2xl">{contact.contactInfo.title}</h2>
+              <h2 className="font-iransns text-primary mb-8 text-2xl">{contact.contactInfo.title}</h2>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <FaPhone className="text-primary mt-1 h-6 w-6" />
@@ -71,6 +71,7 @@ export default function Contact() {
                     <h3 className="text-text text-lg font-semibold">{contact.contactInfo.phone.title}</h3>
                     <p className="text-text/80">{contact.contactInfo.phone.number}</p>
                     <p className="text-text/60">{contact.contactInfo.phone.hours}</p>
+                    <p className="text-text/60">{contact.contactInfo.phone.hours2}</p>
                   </div>
                 </div>
 
@@ -92,6 +93,17 @@ export default function Contact() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div style={{ width: "100%", height: "400px" }}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d681.121194945419!2d51.405415968466066!3d35.70219135422622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e010c34904329%3A0x7485c5b761faf1ad!2sAbrisham%20Mobile%20and%20Computer%20Mall!5e0!3m2!1sen!2sus!4v1746451135483!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

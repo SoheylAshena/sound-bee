@@ -39,7 +39,7 @@ const Features = () => {
               key={feature.key}
               className="group hover:bg-secondary/5 ring-accent flex flex-col items-center rounded-xl p-8 text-center ring-2 transition-all duration-300"
             >
-              <div className="bg-primary/10 text-primary group-hover:bg-primary mb-6 rounded-full p-4 transition-all duration-300 group-hover:text-white">
+              <div className="bg-primary/10 text-primary group-hover:bg-primary mb-6 rounded-full p-4 transition-all duration-300 group-hover:text-black">
                 <feature.icon className="text-3xl" />
               </div>
               <h3 className="text-primary mb-3 text-xl font-semibold">{t.home.features[feature.key].title}</h3>
