@@ -27,8 +27,8 @@ const Features = () => {
   const t = getTranslations();
 
   return (
-    <section className="bg-background mb-20 py-32">
-      <div className="mx-auto max-w-7xl px-4">
+    <section className="p-5">
+      <div className="mx-auto max-w-7xl">
         <div className="mb-16 text-center">
           <h2 className="text-primary mb-4 text-4xl">{t.home.features.title}</h2>
           <p className="text-text/70 mx-auto max-w-2xl text-lg">{t.home.features.subtitle}</p>

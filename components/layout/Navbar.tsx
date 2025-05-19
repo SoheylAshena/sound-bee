@@ -20,16 +20,18 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-background/90 fixed top-0 z-50 mx-auto flex w-full items-center justify-between px-6 py-3">
-      <DesktopMenu navLinks={navLinks} pathname={pathname} />
+    <>
+      <nav className="bg-background/90 fixed top-0 z-50 mx-auto flex h-18 w-full items-center justify-between px-5">
+        <DesktopMenu navLinks={navLinks} pathname={pathname} />
 
-      <MobileMenu
-        navLinks={navLinks}
-        pathname={pathname}
-        isMobileMenuOpen={isMobileMenuOpen}
-        setIsMobileMenuOpen={setIsMobileMenuOpen}
-      />
-    </nav>
+        <MobileMenu
+          navLinks={navLinks}
+          pathname={pathname}
+          isMobileMenuOpen={isMobileMenuOpen}
+          setIsMobileMenuOpen={setIsMobileMenuOpen}
+        />
+      </nav>
+    </>
   );
 };
 

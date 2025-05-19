@@ -5,17 +5,17 @@ export default function About() {
   const { about } = getTranslations();
 
   return (
-    <div>
-      <section className="bg-secondary relative py-32">
-        <div className="mx-auto max-w-7xl px-4">
+    <div className="mt-18 flex flex-col gap-20 p-5">
+      <section className="bg-secondary/50 relative rounded-2xl py-20">
+        <div className="mx-auto max-w-7xl">
           <h1 className="text-primary mb-6 text-center text-4xl md:text-5xl">{about.title}</h1>
           <p className="text-text/90 mx-auto max-w-3xl text-center text-lg">{about.description}</p>
         </div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.15),transparent_70%)]" />
       </section>
 
-      <section className="py-16">
-        <div className="mx-auto max-w-7xl px-4">
+      <section>
+        <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
             <div>
               <h2 className="text-primary mb-6 text-3xl">{about.ourStory.title}</h2>
@@ -25,8 +25,7 @@ export default function About() {
                 ))}
               </div>
             </div>
-            <div className="relative h-[600px] overflow-hidden rounded-lg">
-              <div className="bg-primary/20 absolute inset-0" />
+            <div className="relative h-[600px] overflow-hidden rounded-lg max-md:h-[400px]">
               <Image
                 className="h-full w-full object-cover opacity-50"
                 alt=""
@@ -36,15 +35,15 @@ export default function About() {
                 loading="eager"
                 blurDataURL="/shop.jpg"
               />
-              <div className="from-background/80 absolute inset-0 bg-gradient-to-t to-transparent" />
+              <div className="from-accent/20 absolute inset-0 bg-gradient-to-t to-transparent" />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-secondary py-16">
-        <div className="mx-auto max-w-7xl px-4">
-          <h2 className="text-primary mb-12 text-center text-3xl">{about.ourValues.title}</h2>
+      <section className="bg-secondary/50 rounded-2xl p-5">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="text-primary mb-5 text-center text-3xl">{about.ourValues.title}</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {about.ourValues.values.map((value, index) => (
               <div key={index} className="bg-background/50 hover:bg-background rounded-lg p-6 transition-colors">

@@ -5,8 +5,8 @@ export default function Contact() {
   const { contact } = getTranslations();
 
   return (
-    <div className="bg-background">
-      <section className="bg-secondary relative py-32">
+    <div className="mt-18 p-5">
+      <section className="bg-secondary/50 relative rounded-2xl py-20">
         <div className="mx-auto max-w-7xl px-4">
           <h1 className="text-primary mb-6 text-center text-4xl md:text-5xl">{contact.title}</h1>
           <p className="text-text/90 mx-auto max-w-3xl text-center text-lg">{contact.description}</p>
@@ -15,7 +15,7 @@ export default function Contact() {
       </section>
 
       <section className="py-16">
-        <div className="mx-auto max-w-7xl px-4">
+        <div className="mx-auto max-w-7xl">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
             <div>
               <h2 className="text-primary mb-8 text-2xl">{contact.contactInfo.title}</h2>
@@ -54,7 +54,6 @@ export default function Contact() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d681.121194945419!2d51.405415968466066!3d35.70219135422622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e010c34904329%3A0x7485c5b761faf1ad!2sAbrisham%20Mobile%20and%20Computer%20Mall!5e0!3m2!1sen!2sus!4v1746451135483!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
-                style={{ border: 0 }}
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>

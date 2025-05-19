@@ -1,7 +1,7 @@
 {
   "general": {
     "brandName": "Sound Bee",
-    "copyright": "© {year} Sound Bee. تمامی حقوق محفوظ است.",
+    "copyright": "تمامی حقوق محفوظ است - Sound Bee {year}",
     "tagline": "تعمیرگاه قابل اعتماد شما برای تعمیرات تخصصی سیستم های صوتی"
   },
   "nav": {

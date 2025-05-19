@@ -28,28 +28,19 @@ const BrandsGrid = () => {
   const t = getTranslations();
 
   return (
-    <section className="flex w-full flex-col items-center p-2">
+    <section className="flex w-full flex-col items-center p-5">
       <h2 className="text-primary animate-fade-in mb-4 text-center text-4xl max-md:text-2xl">{t.home.brands.title}</h2>
-      <p className="text-text/70 animate-fade-in-delay max-w-2xl text-center text-lg">{t.home.brands.subtitle}</p>
-      <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+      <p className="text-text/70 animate-fade-in-delay mb-3 max-w-2xl text-center text-lg">{t.home.brands.subtitle}</p>
+      <div className="grid w-full max-w-7xl grid-cols-2 gap-8 py-5 md:grid-cols-3 lg:grid-cols-5">
         {brands.map((brand) => (
-          <div
+          <Image
             key={brand.name}
-            className="hover:bg-secondary/5 relative flex flex-col items-center justify-center rounded-xl p-8 transition-all duration-300"
-          >
-            <div className="relative h-24 w-48 transition-transform duration-300 hover:scale-110 max-md:h-12 max-md:w-24">
-              <Image
-                src={brand.logo}
-                alt={brand.name}
-                fill
-                className="object-contain grayscale filter transition-all duration-200 hover:grayscale-0"
-                priority
-              />
-            </div>
-            <h3 className="text-primary mt-6 text-xl font-semibold opacity-0 transition-all duration-300 hover:opacity-100">
-              {brand.name}
-            </h3>
-          </div>
+            src={brand.logo}
+            alt={`${brand.name} logo`}
+            width={192}
+            height={192}
+            className="h-24 object-contain grayscale transition-all duration-300 hover:scale-110 hover:grayscale-0 active:scale-110 active:grayscale-0 max-md:w-full"
+          />
         ))}
       </div>
     </section>

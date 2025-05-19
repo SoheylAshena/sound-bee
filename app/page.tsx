@@ -4,7 +4,7 @@ import BrandsGrid from "@/components/home/BrandsGrid";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex flex-col gap-20">
       <Hero />
       <Features />
       <BrandsGrid />

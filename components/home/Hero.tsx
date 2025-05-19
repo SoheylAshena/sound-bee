@@ -15,11 +15,11 @@ const Hero = () => {
           height={1000}
           loading="eager"
           blurDataURL="/bwhero.png"
-          className="absolute h-full w-full max-w-[2200px] rounded-2xl object-cover"
+          className="absolute h-full w-full max-w-[2000px] rounded-2xl object-cover"
         />
         <div className="pointer-events-none absolute inset-0 h-full w-full bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.3),transparent_50%)]" />
 
-        <div className="z-10 flex max-w-7xl flex-col items-center text-center">
+        <div className="z-10 flex max-w-7xl flex-col items-center p-5 text-center">
           <h1 className="font-oneday text-primary mb-6 text-5xl md:text-6xl lg:text-7xl">{t.general.brandName}</h1>
           <p className="text-text/90 mb-8 max-w-2xl text-xl md:text-2xl">{t.general.tagline}</p>
           <Link

@@ -4,8 +4,8 @@ const Footer = () => {
   const t = getTranslations();
 
   return (
-    <footer className="bg-secondary mt-auto">
-      <div className="mx-auto max-w-7xl px-4 py-12">
+    <footer className="bg-secondary p-5">
+      <div className="mx-auto max-w-7xl py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
             <h3 className="font-oneday text-primary mb-4 text-xl">{t.general.brandName}</h3>
