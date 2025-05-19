@@ -33,6 +33,8 @@ export default function About() {
                 src="/shop.jpg"
                 width={500}
                 height={500}
+                loading="eager"
+                blurDataURL="/shop.jpg"
               />
               <div className="from-background/80 absolute inset-0 bg-gradient-to-t to-transparent" />
             </div>

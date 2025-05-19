@@ -17,51 +17,6 @@ export default function Contact() {
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
-            {/* <div>
-              <h2 className=" text-primary mb-8 text-2xl">{contact.getInTouch.title}</h2>
-              <form className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="text-text mb-2 block">
-                    {contact.getInTouch.nameLabel}
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    className="bg-secondary text-text border-text/10 focus:border-primary w-full rounded-lg border px-4 py-2 focus:outline-none"
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="text-text mb-2 block">
-                    {contact.getInTouch.emailLabel}
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="bg-secondary text-text border-text/10 focus:border-primary w-full rounded-lg border px-4 py-2 focus:outline-none"
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="text-text mb-2 block">
-                    {contact.getInTouch.messageLabel}
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    className="bg-secondary text-text border-text/10 focus:border-primary w-full rounded-lg border px-4 py-2 focus:outline-none"
-                    required
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="bg-primary hover:bg-primary-dark text-secondary rounded-lg px-8 py-3 font-semibold transition-colors"
-                >
-                  {contact.getInTouch.submitButton}
-                </button>
-              </form>
-            </div> */}
-
             <div>
               <h2 className="text-primary mb-8 text-2xl">{contact.contactInfo.title}</h2>
               <div className="space-y-6">
@@ -101,7 +56,6 @@ export default function Contact() {
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
-                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>

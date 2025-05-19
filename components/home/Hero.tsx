@@ -13,6 +13,8 @@ const Hero = () => {
           alt="Hero Image"
           width={1000}
           height={1000}
+          loading="eager"
+          blurDataURL="/bwhero.png"
           className="absolute h-full w-full max-w-[2200px] rounded-2xl object-cover"
         />
         <div className="pointer-events-none absolute inset-0 h-full w-full bg-[radial-gradient(circle_at_center,rgba(255,215,0,0.3),transparent_50%)]" />
