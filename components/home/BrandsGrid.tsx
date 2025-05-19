@@ -11,7 +11,7 @@ const brands = [
   { name: "DYNACORD", logo: "/brands/dynacord.svg" },
   { name: "MACKIE", logo: "/brands/mackie.svg" },
   { name: "FOCAL", logo: "/brands/focal.svg" },
-  { name: "BOSE", logo: "/brands/bose.svg" },
+  { name: "Outline", logo: "/brands/outline.svg" },
   { name: "FBT", logo: "/brands/fbt.svg" },
   { name: "RCF", logo: "/brands/rfc.svg" },
   { name: "Bang & Olufsen", logo: "/brands/bang-olufsen.svg" },
